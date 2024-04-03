@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    background-color: #DD1B3D;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all ease-in;
+    
+}
+
+.main_box {
+    width: 700px;
+    height: 350px;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 1px 1px 10px 4px rgba(21, 21, 21, 0.127);
+}
+
+.sign_box {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e24363; 
+    transition: 1s all ease-in;
+}
+
+.account {
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+button {
+   width: 80px;
+   height: 35px;
+   display: grid;
+   place-content: center;
+   font-size: small;
+   font-weight: 600;
+   background-color: white;
+   border: none; 
+   margin-top: 10px;
+   border-radius: 2px;
+   padding: 0 5px;
+   cursor: pointer;
+}
+.form_box {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 430px;
+    background-color: #fff; 
+    box-shadow: 1px 1px 10px 4px rgba(21, 21, 21, 0.146);
+    /* transition: 0.5s all ease-in-out; */
+}
+.form_in {
+    position: absolute;
+    left: -280px;
+    opacity: 0;
+}
+.form_up {
+    position: absolute;
+    right: 40px;
+
+}
+
+.formform h2 {
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
+
+.formform input{
+    width: 270px;
+    height: 35px;
+    margin: 5px 0;
+    text-indent: 5px;
+    border: 1px solid rgb(45, 45, 45);
+}
+.form_in p {
+    font-size: small;
+    margin-top: 15px;
+}
+.log{
+    background-color: #1fa1d2;
+    color: white;
+}
+.regis {
+    background-color: #d1254d;
+    color: white;
+}
